@@ -7,7 +7,9 @@ const Main = () => {
     return (
         <div className="flex min-h-screen flex-col">
             {/* Navbar */}
-            <Navbar />
+            <div className='bg-amber-100'>
+                <Navbar />
+            </div>
             {/* Dynamic Contents */}
             <div className="flex-grow">
                 <Outlet />
