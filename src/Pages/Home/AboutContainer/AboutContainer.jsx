@@ -9,7 +9,7 @@ const AboutContainer = () => {
             <About />
             <MyIntrests title="What I love" description={["I love solving real-world problems through coding. Apart from programming, I enjoy listening to podcasts, playing chess, and learning new technologies."]} />
             {/* services */}
-            <MyIntrests title="Services" description={['Website Design', 'Developing Beautiful Website', 'JWT Verification' ]}/>
+            <MyIntrests title="Services" description={['Website Design', 'Developing Beautiful Website', 'JWT Verification']} />
 
         </div>
     );

@@ -10,9 +10,9 @@ const Banner = () => {
                 {/* About section */}
                 <AboutContainer/>
             </div>
-            <div className='flex-2/4 min-h-screen border border-red-300'>
+            <div className='flex-2/4 min-h-screen border-4 p-6  border-amber-500/50 rounded-t-full rounded-b-full'>
                 {/* img section of me */}
-                <img className='h-full w-full' src={asrafImg} alt="" />
+                <img className='h-[600px] w-full rounded-t-full rounded-b-full' src={asrafImg} alt="" />
             </div>
             <div className='flex-1/4'>
                 {/* experience , clients , projects number */}
