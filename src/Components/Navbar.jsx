@@ -24,11 +24,11 @@ const Navbar = () => {
                     <li><Link to="/contact" className="hover:text-blue-400">Contact</Link></li>
                 </ul>
             </div>
-            <div className="navbar-center">
-                <img src={logo3} className="w-full h-32  rounded-t-box rounded-full object-cover" alt="" />
+            <div className="navbar-center grow">
+                <img src={logo3} className="w-20 h-20  rounded-t-box rounded-full object-cover" alt="" />
             </div>
             <div className="navbar-end">
-            <div className="flex gap-3">
+                <div className="flex gap-3">
                     <a href="https://github.com/ash-124" target="_blank"><FaGithub size={24} /></a>
                     <a href="https://linkedin.com/in/asraful-ratul" target="_blank"><FaLinkedin size={24} /></a>
                     <a href="https://facebook.com/yourfacebook" target="_blank"><FaFacebook size={24} /></a>

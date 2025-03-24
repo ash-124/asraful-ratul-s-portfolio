@@ -7,11 +7,11 @@ const Main = () => {
     return (
         <div className="flex min-h-screen flex-col">
             {/* Navbar */}
-            <div className='bg-amber-900/30 fixed backdrop-blur-lg w-full   shadow-md '>
+            <div className='bg-amber-900/30 fixed backdrop-blur-lg w-full shadow-md '>
                 <Navbar />
             </div>
             {/* Dynamic Contents */}
-            <div className="flex-grow">
+            <div className="flex-grow mt-24 ">
                 <Outlet />
             </div>
             {/* Footer */}
